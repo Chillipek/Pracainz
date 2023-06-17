@@ -7,7 +7,7 @@ import numpy as np
 model = VGG16(weights='imagenet')
 
 # Wczytanie obrazu z pliku
-img_path = 'gory_1.jpg'
+img_path = '/Users/filipczop/Pracainz/Duzy zbior/gory_1.jpg'
 img = image.load_img(img_path, target_size=(224, 224))
 x = image.img_to_array(img)
 x = np.expand_dims(x, axis=0)
