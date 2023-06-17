@@ -1,4 +1,4 @@
-import numpy as np
+import numpyexample as np
 from scipy.stats import ttest_1samp
 
 # utworzenie przykładowego zestawu wyników egzaminów
