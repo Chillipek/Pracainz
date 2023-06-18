@@ -10,6 +10,7 @@ minvalue=df.min()
 maxvalue=df.max()
 medianvalue=df.median()
 meanvalue=df.mean()
+
 print(f'Min values:\n{minvalue}')
 print(f'Min values:\n{maxvalue}')
 print(f'Min values:\n{medianvalue}')
